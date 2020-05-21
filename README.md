@@ -18,7 +18,7 @@ Uma maneira fácil de interagir com as principais funcionalidades dos [Correios]
 Via Composer
 
 ``` bash
-$ composer require AlecsanderAbreu/correios-php
+$ composer require alecsanderabreu/correios-php
 ```
 
 ## Uso
