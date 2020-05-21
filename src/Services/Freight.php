@@ -227,9 +227,10 @@ class Freight implements FreightInterface
     {
         $servicesResponses = array_map(function ($service) {
             return $this->http->get(WebService::CALC_PRICE_DEADLINE, [
-                'query' => $this->payload($service),
+                'query' => $this->payload($service)
             ]);
         }, $this->services);
+
 
 
         $services = array_map([$this, 'fetchCorreiosService'], $servicesResponses);
@@ -256,8 +257,8 @@ class Freight implements FreightInterface
      */
     protected function height()
     {
-        return array_sum(array_map(function ($item) {
-            return $item['height'] * $item['quantity'];
+        return max(array_map(function ($item) {
+            return $item['height'];
         }, $this->items));
     }
 
