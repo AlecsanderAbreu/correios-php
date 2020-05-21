@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Uma maneira fácil de interagir com as principais funcionalidades dos Correios.",
     "keywords": [
-        "flyingluscas",
+        "alecsanderabreu",
         "correios-php",
         "correios",
         "frete",
@@ -11,13 +11,13 @@
         "rastreio",
         "cep"
     ],
-    "homepage": "https://github.com/flyingluscas/correios-php",
+    "homepage": "https://github.com/alecsanderabreu/correios-php",
     "license": "MIT",
     "authors": [
         {
             "name": "Lucas Pires",
             "email": "lucas.pires.mattos@gmail.com",
-            "homepage": "https://github.com/flyingluscas",
+            "homepage": "https://github.com/alecsanderabreu",
             "role": "Developer"
         }
     ],
@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "FlyingLuscas\\Correios\\": "src"
+            "AlecsanderAbreu\\Correios\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "FlyingLuscas\\Correios\\": "tests"
+            "AlecsanderAbreu\\Correios\\": "tests"
         }
     },
     "scripts": {
