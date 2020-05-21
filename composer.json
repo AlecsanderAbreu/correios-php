@@ -1,5 +1,5 @@
 {
-    "name": "alecsander-abreu/correios-php",
+    "name": "alecsanderabreu/correios-php",
     "type": "library",
     "description": "Uma maneira fácil de interagir com as principais funcionalidades dos Correios.",
     "keywords": [
