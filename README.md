@@ -56,7 +56,7 @@ Resultado:
 
 ### Calcular Preços e Prazos
 
-Calcular preços e prazos de serviços de entrega (Sedex, PAC e etc), com **suporte a multiplos objetos** na mesma consulta.
+Calcular preços e prazos de serviços de entrega (Sedex, PAC e etc), com **suporte a multiplos objetos** na  mesma consulta.
 
 ``` php
 use FlyingLuscas\Correios\Client;
