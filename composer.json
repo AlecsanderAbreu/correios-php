@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AlecsanderAbreu\\Correios\\": "src"
+            "FlyingLuscas\\Correios\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AlecsanderAbreu\\Correios\\": "tests"
+            "FlyingLuscas\\Correios\\": "tests"
         }
     },
     "scripts": {
